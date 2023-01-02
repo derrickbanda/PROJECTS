@@ -1,0 +1,85 @@
+/* Add a background color and some padding to the container */
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Style the header text */
+  #header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Style the search form */
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style the search input field */
+  .inp {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the "Dork" and "Google search" buttons */
+  .dorks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Add some space between the buttons and the paragraph */
+  }
+  
+  button#change-query-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input#submitted {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the "what file are you looking for?" text */
+  .pg {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+  }
+  
+  /* Style the file type buttons */
+  .bg-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .opt-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

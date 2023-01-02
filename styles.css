@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(36, 30, 30);
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/22/240/855/texture-gradient-simple-background-blue-wallpaper-preview.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: cursive;
+    font-size: 50px;
+}
+.container, h1{
+    color: white;
+    margin: o auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.inp{
+    height: 35px;
+    width: 500px;
+    border-radius: 15px 50px;
+    font-size: large;
+    text-align: center;
+    border: none;
+    background-color: #323232;
+    color: white;
+}
+.dorks{
+    color: white;
+    margin: o auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-top: 50px;
+}
+#change-query-button{
+    height: 35px;
+    width: 90px;
+    font-size: large;
+    font-family: roboto;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+#change-query-button:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+  }
+  
+#submitted{
+    height: 35px;
+    width: 120px;
+    font-size: large;
+    font-family: roboto;
+    background-color: rgb(48, 44, 44);
+    color: white;
+}
+#submitted:hover {
+    transform: scale(1.1);
+    color: rgb(10, 10, 248);
+    background-color: white;
+  }
+  
+.bg-btn{
+    margin: o auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+}
+p{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opt-btn{
+    border-radius: 4px 10px;
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(120, 138, 123);
+    color: rgb(14, 14, 70);
+    font-weight: bolder;
+}

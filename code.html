@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body id="body">
+   
+   <div class="container">
+     <h1 id="header">ADS DORK</h1>
+     <form action="https://www.google.com/search?"  >
+        <input id="search-query" class="inp" placeholder="enter your search term here... then press dork and search"
+         maxlength="2048" name="q" type="text" aria-autocomplete="both" aria-haspopup="false" 
+         autocapitalize="off" autocomplete="on" autocorrect="on" autofocus="" role="combobox" 
+         spellcheck="true" title="Search" value="" aria-label="Search">
+     </form>
+   
+     </div>
+    
+   <div class="dorks" >
+     <button type="button" id="change-query-button" >Dork</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="submit" name="" id="submitted" value="Google search">
+   </div>
+   <br>
+
+   <div class="bg-btn">
+      <p class="pg">what file are you looking for?</p>
+      <button onclick="pdf()" class="opt-btn">PDF</button>
+      <button onclick="mp4()" class="opt-btn">MP4</button>
+      <button onclick="mp3()" class="opt-btn">MP3</button>
+      <button onclick="doc()" class="opt-btn">DOC/DOCX</button>
+      <button onclick="ppt()" class="opt-btn">PPT/PPTX</button>
+      <button onclick="dwg()" class="opt-btn">DWG</button>
+      <button onclick="jpg()" class="opt-btn">JPG</button>
+      <button onclick="jpeg()" class="opt-btn">JPEG</button>
+      <button onclick="gif()" class="opt-btn">GIF</button>
+      <button onclick="svg()" class="opt-btn">SVG</button>
+      <button onclick="png()" class="opt-btn">PNG</button>
+      <button onclick="html()" class="opt-btn">HTML</button>
+      <button onclick="xls()" class="opt-btn">XLS/XLSX</button>
+      <button onclick="txt()" class="opt-btn">TXT</button>
+      <button onclick="zip()" class="opt-btn">ZIP</button>
+   </div>
+     
+   <script src="app.js"></script>
+
+</body>
+</html>
